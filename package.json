@@ -1,0 +1,37 @@
+{
+  "name": "sqa-coverage-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razorfadly298/sqa-coverage-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/razorfadly298/sqa-coverage-demo/issues"
+  },
+  "homepage": "https://github.com/razorfadly298/sqa-coverage-demo#readme",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": "80",
+        "functions": "80",
+        "lines": "80",
+        "statements": "80"
+      }
+    }
+  }
+}
